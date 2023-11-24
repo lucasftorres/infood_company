@@ -31,7 +31,7 @@ def country_maps(df1):
                          location_info['Delivery_location_longitude']],
                          popup = location_info[['City', 'Road_traffic_density']], zoom_start = 10).add_to(map)
                            
-    folium_static( map, width = 800, height = 600 )
+    folium_static( map, width = 1024, height = 600 )
 
 
 ## Função para mostrar a quantidade de entregas por semana por entregador unico
