@@ -1,0 +1,8 @@
+streamlit==1.28.2
+plotly==5.18.0
+pandas==2.0.3
+haversine==2.8.0
+numpy==1.24.4
+datetime==5.3
+folium==0.14.0
+stremlit==folium
